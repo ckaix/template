@@ -15,7 +15,7 @@
   },
   "lint-staged": {
     "*.{vue,ts,tsx,js,jsx}": [
-      "eslint --fix"
+      "eslint"
     ],
     "src/**/*.{css,less,scss,html,htm,vue}": [
       "stylelint --fix"
