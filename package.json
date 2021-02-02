@@ -14,7 +14,7 @@
     "commit-msg": "commitlint -E GIT_PARAMS"
   },
   "lint-staged": {
-    "*.{vue,ts,tsx,js,jsx}": [
+    "src/**/*.{vue,ts,tsx,js,jsx}": [
       "eslint --fix"
     ]
   },
